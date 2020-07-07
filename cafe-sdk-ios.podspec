@@ -7,7 +7,6 @@ Pod::Spec.new do |s|
 
   s.homepage              = 'https://github.com/alanxs/cafe-sdk-ios'
   s.source                = { :git => "https://github.com/alanxs/cafe-sdk-ios.git", :tag => s.version.to_s }
-  s.source_files          = 'lib/*'
   s.ios.preserve_paths = 'lib/NaverCafeSDK.framework'
   s.ios.vendored_frameworks = 'lib/NaverCafeSDK.framework'
   s.resource = 'lib/NaverCafeSDK.bundle'
