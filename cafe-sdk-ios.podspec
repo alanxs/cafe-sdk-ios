@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.dependency 'SDWebImage'
   s.dependency 'FLAnimatedImage'
   #s.static_framework = true
-
+  s.frameworks = "AVKit", "AVFoundation", "MobileCoreServices", "SystemConfiguration", "MediaPlayer", "CoreMedia", "AssetsLibrary", "Security", "ImageIO", "QuartzCore", "SafariServices", "WebKit", "ReplayKit"
 
 end
 
