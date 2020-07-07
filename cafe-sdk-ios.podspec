@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                  = 'cafe-sdk-ios'
-  s.version               = "4.4.7"
-  s.summary               = 'cafe-sdk-ios by alan'
+  s.version               = "4.4.8"
+  s.summary               = 'naver cafe-sdk-ios 4.4.7 by alan'
   s.license               = 'MIT'
   s.author                = { "alan" => "huangliang@alanxx.com.com" }
 
@@ -13,9 +13,12 @@ Pod::Spec.new do |s|
   
   
   s.platform              = :ios
-  s.ios.deployment_target = "8.0"
-  s.dependency 'SDWebImage'
-  s.dependency 'FLAnimatedImage'
+  s.ios.deployment_target = "9.0"
+  s.dependency 'SDWebImage' , "~> 3.8.2"
+  s.dependency 'FLAnimatedImage' , "~> 1.0.12"
+  s.dependency 'naveridlogin-sdk-ios' , "~> 4.1.1"
+
+  
   #s.static_framework = true
   s.frameworks = "AVKit", "AVFoundation", "MobileCoreServices", "SystemConfiguration", "MediaPlayer", "CoreMedia", "AssetsLibrary", "Security", "ImageIO", "QuartzCore", "SafariServices", "WebKit", "ReplayKit"
 
