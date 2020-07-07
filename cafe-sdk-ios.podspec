@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
   
   s.platform              = :ios
   s.ios.deployment_target = "9.0"
-  s.dependency 'SDWebImage' , "~> 3.8.2"
   s.dependency 'FLAnimatedImage' , "~> 1.0.12"
   s.dependency 'naveridlogin-sdk-ios' , "~> 4.1.1"
 
